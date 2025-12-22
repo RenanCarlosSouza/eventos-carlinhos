@@ -129,6 +129,7 @@
                         <option value="Banco do Brasil">Banco do Brasil</option>
                         <option value="Caixa">Caixa</option>
                         <option value="Santander">Santander</option>
+                         <option value="Itau">Itau</option>
                     </select>
                 </div>
                 <button type="button" class="btn-black" onclick="salvarEvento()">Salvar</button>
@@ -157,7 +158,7 @@
                                 <option value="Alimentacao">Alimentação</option>
                                 <option value="Bebidas">Bebidas</option>
                                 <option value="Assinaturas">Assinaturas</option>
-                                <option value="Outros">Outros</option>
+                                <option value="Eventos">Eventos</option>
                             </select>
                         </div>
                         <div class="form-group" style="flex: 1;">
@@ -208,7 +209,7 @@
                         <input type="month" id="mes-referencia" onchange="calcularAnaliseMensal()">
                     </div>
                     <div class="form-group">
-                        <label>Meta de Gastos da Empresa (R$)</label>
+                        <label>Meta de Gastos (R$)</label>
                         <input type="number" id="meta-mensal" placeholder="Ex: 50000"
                             onchange="calcularAnaliseMensal()">
                     </div>
@@ -249,3 +250,4 @@
 
 
 </html>
+
