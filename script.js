@@ -1,3 +1,6 @@
+// ==========================================================================
+// 1. DADOS E INICIALIZAÇÃO
+// ==========================================================================
 let listaEventos = JSON.parse(localStorage.getItem('carlinhosEventos')) || [];
 let listaReceitas = JSON.parse(localStorage.getItem('carlinhosReceitas')) || [];
 let listaFixos = JSON.parse(localStorage.getItem('carlinhosFixos')) || [];
